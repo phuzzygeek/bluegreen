@@ -18,6 +18,7 @@ imagefilledrectangle($im, 0, 0, 199, 199, $color);
 
 // Save the image
 header('Content-Type: image/png');
+// Missing a commented-out line here.
 imagePNG($im);
 imagedestroy($im);
 ?>
